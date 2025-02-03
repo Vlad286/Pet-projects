@@ -1,0 +1,70 @@
+.calendar__calendars {
+   margin-top: 20px;
+   margin-left: 30px;
+   width: 300px;
+}
+
+.calendar__calendars_info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.calendar__calendars_info-title {
+   font-size: 25px;
+   font-weight: 700;
+}
+
+.calendar__calendars_info-btn:hover {
+   opacity: 0.7;
+}
+
+.calendar__calendars_info-btn img {
+   width: 16px;
+   height: 16px;
+}
+
+.calendar__calendars_area {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.calendar__calendars_item {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 8px;
+   border-radius: 6px;
+   transition: background-color 0.3s ease;
+   position: relative;
+   width: 450px;
+
+   &:hover {
+      background-color: #f5f5f5;
+   }
+}
+
+.calendar__color {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   flex-shrink: 0;
+}
+
+.calendar_name {
+   font-size: 16px;
+   word-wrap: break-word;
+   white-space: normal;
+   width: 160px;
+}
+
+.calendar__edit-btn:hover,
+.calendar__delete-btn:hover {
+   opacity: 0.7;
+}
+
+.calendar__edit-btn {
+   margin-right: -5px; /* Отступ между кнопками */
+}

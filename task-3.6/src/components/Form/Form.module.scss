@@ -1,0 +1,84 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.form_username_title,
+.form_email_title,
+.form_password_title,
+.form_confirm_password_title {
+  display: flex;
+  color: #dfa2a2;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.form_username_item,
+.form_email_item,
+.form_password_item,
+.form_confirm_password_item,
+.form_confirm_btn {
+  background-color: black;
+  color: #fff;
+}
+
+.form_password_item_img,
+.form_confirm_password_item_img {
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+}
+
+.form_username,
+.form_email,
+.form_password,
+.form_confirm_password {
+  padding: 10px 50px 0px 0px;
+  width: 300px;
+  margin-top: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.form_username {
+  margin-top: 0px;
+}
+
+.form_username_item,
+.form_email_item,
+.form_password_item,
+.form_confirm_password_item {
+  margin: 5px 0px;
+}
+
+.form_password,
+.form_confirm_password {
+  position: relative;
+}
+
+.form_register_btn {
+  background-color: green;
+  color: #fff;
+  padding: 15px 0px;
+  width: 75%;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.error{
+  display: flex;
+  font-size: 12px;
+  color: orangered;
+  margin-top: 5px;
+}
+
+.error_border {
+  border-color: red;
+}

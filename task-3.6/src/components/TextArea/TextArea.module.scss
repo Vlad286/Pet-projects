@@ -1,0 +1,38 @@
+.textArea_title {
+   font-size: 15px;
+}
+
+.textArea {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   width: 600px;
+   position: relative;
+   overflow: hidden; /* Скрыть лишний текст до фокуса */
+
+   &_input {
+      width: 560px;
+      padding: 10px 2px;
+      font-size: 16px;
+      border: none;
+      border-bottom: 1px solid black;
+      transition: border-color 0.2s;
+      resize: none;
+
+      &:focus {
+         border-color: #941a84;
+         outline: none;
+      }
+   }
+
+   &_counter {
+      position: absolute;
+      font-size: 14px;
+      color: #666;
+      text-align: right;
+      right: 40px;
+      bottom: -30px;
+      margin-bottom: 5px;
+   }
+}
+
