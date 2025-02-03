@@ -1,0 +1,9 @@
+import{j as r}from"./jsx-runtime-BjgbQsUx.js";import{r as C}from"./index-DEBVq0NN.js";import"./index-D2MAbzvX.js";const F="_colorPicker_1brij_1",_="_selectedColor_1brij_7",g="_colorPalette_1brij_15",x="_colorBox_1brij_21",S="_selected_1brij_7",l={colorPicker:F,selectedColor:_,colorPalette:g,colorBox:x,selected:S},a=({colors:s,onSelectColor:i})=>{const[t,c]=C.useState(null),n=e=>{e!==t&&(c(e),i(e))};return r.jsx("div",{className:l.colorPicker,children:r.jsx("div",{className:l.colorPalette,children:s.map((e,p)=>r.jsx("button",{className:`${l.colorBox} ${t===e?l.selected:""}`,style:{backgroundColor:e},onClick:()=>n(e)},p))})})};a.__docgenInfo={description:"",methods:[],displayName:"ColorPicker",props:{colors:{required:!0,tsType:{name:"Array",elements:[{name:"string"}],raw:"string[]"},description:""},onSelectColor:{required:!0,tsType:{name:"signature",type:"function",raw:"(color: string) => void",signature:{arguments:[{type:{name:"string"},name:"color"}],return:{name:"void"}}},description:""}}};const b={title:"ColorPicker",component:a},P=s=>{const[i,t]=C.useState(null),c=n=>{t(n)};return r.jsx("div",{children:r.jsx(a,{...s,onSelectColor:c})})},o=P.bind({});o.args={colors:["#FF5733","#33FF57","#3357FF","#FF33A8","#8A33FF","#FF8C33","#33FF8C","#FF33FF","#33A8FF"]};var d,u,m;o.parameters={...o.parameters,docs:{...(d=o.parameters)==null?void 0:d.docs,source:{originalSource:`(args: any) => {
+  const [selectedColor, setSelectedColor] = useState<string | null>(null);
+  const handleSelectColor = (color: string) => {
+    setSelectedColor(color);
+  };
+  return <div>\r
+      <ColorPicker {...args} onSelectColor={handleSelectColor} />\r
+    </div>;
+}`,...(m=(u=o.parameters)==null?void 0:u.docs)==null?void 0:m.source}}};const f=["Default"];export{o as Default,f as __namedExportsOrder,b as default};
