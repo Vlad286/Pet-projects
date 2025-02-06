@@ -1,0 +1,48 @@
+.customSelect {
+   position: relative;
+   width: 100%;
+   border-bottom: 1px solid black;
+}
+
+.customSelectControl {
+   padding: 10px 2px;
+   cursor: pointer;
+   font-size: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.selectedOption {
+   display: flex;
+   align-items: center;
+}
+
+.colorBox {
+   width: 16px;
+   height: 16px;
+   margin-right: 8px;
+   border-radius: 50%;
+}
+
+.optionsList {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   right: 0;
+   max-height: 200px;
+   overflow-y: auto;
+   background: #fff;
+   z-index: 10;
+}
+
+.option {
+   padding: 10px 2px;
+   font-size: 15px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+
+

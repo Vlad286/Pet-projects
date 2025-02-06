@@ -1,0 +1,32 @@
+.calendar_grid {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.calendar_grid_body {
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   width: 95%;
+   margin-left: 50px;
+}
+
+.calendar_grid_day {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding: 10px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.calendar_grid_day.selected {
+   background-color: #9b59b6;
+   color: white;
+}
+
+.calendar_grid_day-number {
+   font-weight: 700;
+   font-size: 20px;
+}
