@@ -1,9 +1,10 @@
 📍 Web Calendar
 🚀 Installation and launch:
-   git clone https://github.com/Vlad286/web-calendar.git
-   cd web-calendar
+   git clone https://github.com/Vlad286/Pet-projects.git
+   cd Pet-projects/web-calendar
    npm install
    npm run dev
+
 
 🚀 Description
 A Web Calendar in which you can create, edit and delete events that are created on any date and time you choose.
