@@ -1,0 +1,850 @@
+@charset "UTF-8";
+body {
+  background-color: #fff9f0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header_repair {
+  padding-bottom: 100px;
+}
+
+.info_repair-clothes {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.info_repair-clothes-container-title {
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.info_repair-clothes-container-text {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0px;
+}
+
+.info_repair-clothes-container-btn {
+  background-color: #1d0d08;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 5px 20px;
+  margin-right: 50px;
+}
+
+.circle-text-wrapper {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+svg {
+  animation: rotateText 24s linear infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.center-img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes rotateText {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.price-list-title {
+  text-align: center;
+  font-size: 46px;
+  margin-bottom: 50px;
+}
+
+.price-filter {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.price-filter-input,
+.price-filter-select {
+  border: #333 1px solid;
+  padding: 10px 200px 10px 5px;
+  margin-right: 10px;
+  background-color: #dbdbcf;
+  border-radius: 4px;
+}
+
+.price-filter-select {
+  padding: 10px 50px 10px 5px;
+}
+
+/* Основные стили контейнера */
+#priceListContainer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px 15px;
+  margin-top: 50px;
+}
+
+/* Стили для фильтров */
+.filter-container {
+  display: flex;
+  gap: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+/* Стили для категорий */
+.price-category {
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  height: fit-content; /* Важно для grid-разметки */
+}
+
+.price-category-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.price-category-btn:hover {
+  background-color: #e9ecef;
+}
+
+.price-category-btn.active {
+  background-color: #e9ecef;
+}
+
+.price-category-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  object-fit: contain;
+}
+
+.price-category-name {
+  flex-grow: 1;
+}
+
+.accordion-icon {
+  font-size: 20px;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+
+.price-category-content {
+  display: none;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.price-category-btn.active + .price-category-content {
+  display: block;
+}
+
+/* Стили для подкатегорий */
+.price-subcategory {
+  margin: 15px 0 15px 15px;
+  border-left: 3px solid #dee2e6;
+  padding-left: 15px;
+}
+
+.price-subcategory-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #f1f3f5;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  color: #495057;
+  transition: background-color 0.2s;
+  border-radius: 4px;
+}
+
+.price-subcategory-btn:hover {
+  background-color: #e9ecef;
+}
+
+.price-subcategory-btn.active {
+  background-color: #e9ecef;
+}
+
+.price-subcategory-name {
+  flex-grow: 1;
+}
+
+.price-subcategory-content {
+  display: none;
+  padding: 10px 0;
+}
+
+.price-subcategory-btn.active + .price-subcategory-content {
+  display: block;
+}
+
+/* Стили для элементов цен */
+.price-category-content-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f1f1;
+  align-items: center;
+}
+
+.price-category-content-item:last-child {
+  border-bottom: none;
+}
+
+.price-category-content-item-name {
+  font-size: 15px;
+  color: #495057;
+  flex-grow: 1;
+}
+
+.price-category-content-item-price {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2b8a3e;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+/* Анимации */
+.price-category-content,
+.price-subcategory-content {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Адаптивность */
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #categoryFilter,
+  #searchInput {
+    width: 100%;
+  }
+  .price-category-btn {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+  .price-subcategory-btn {
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+  .price-category-content-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .price-category-content-item-price {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
+.header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Навигация наверху */
+.navigation_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  background-color: #f5f5dc;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation_item {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+/* Контент по центру */
+.header_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  text-align: center;
+  z-index: 2;
+}
+
+.header_title-name {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  color: #1d0d08;
+  text-shadow: 1px 1px 2px rgb(32, 3, 3);
+}
+
+.header_title-work {
+  font-size: 80px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #1d0d08;
+  text-shadow: 1px 1px 2px rgb(19, 3, 3);
+}
+
+.main_wrapper-background {
+  background-image: url("../../icons/pexels-ron-lach-7778042.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.info_clothes-scrolling-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+.info_clothes-scrolling {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.info_clothes-scrolling-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 15s linear infinite;
+}
+
+.info_clothes-scrolling-text {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  margin-right: 250px;
+  flex-shrink: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.info_clothes-scrolling-img {
+  width: 96px;
+  height: 96px;
+  margin-right: 20px;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.info_work {
+  margin: 0 auto;
+  padding: 100px 200px;
+}
+
+.info_work-title_btn,
+.info_clothing-examples-title_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_work-title,
+.info_clothing-examples-title {
+  text-align: center;
+  font-size: clamp(30px, 4vw, 50px);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.info_work-button {
+  background-color: #1d0d08;
+  color: #fff;
+  font-size: clamp(16px, 2vw, 20px);
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 5px 20px;
+  margin-right: 50px;
+  transition: all 0.5s;
+}
+
+.info_work-button:hover {
+  transform: scale(1.05);
+  color: #ebcccc;
+}
+
+.info_work-container_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 100px 0px;
+}
+
+.info_work-container-sewing,
+.info_work-container-repair,
+.info_work-container-fitting,
+.info_work-container-rent {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  margin-right: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.info_work-container-sewing:hover,
+.info_work-container-repair:hover,
+.info_work-container-fitting:hover,
+.info_work-container-rent:hover {
+  transform: translateY(-5px);
+}
+
+.info_work-container-sewing::before,
+.info_work-container-repair::before,
+.info_work-container-fitting::before,
+.info_work-container-rent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.5s ease;
+  z-index: 0;
+}
+
+.info_work-container-sewing::before {
+  background-image: url(../../icons/пошив.jpg);
+}
+
+.info_work-container-repair::before {
+  background-image: url(../../icons/ремонт3.jpg);
+}
+
+.info_work-container-fitting::before {
+  background-image: url(../../icons/примерка1.jpg);
+}
+
+.info_work-container-rent::before {
+  background-image: url(../../icons/rent_background.jpg);
+}
+
+.info_work-container-sewing:hover::before,
+.info_work-container-repair:hover::before,
+.info_work-container-fitting:hover::before,
+.info_work-container-rent:hover::before {
+  transform: scale(1.05);
+}
+
+.info_work-container-text {
+  position: relative;
+  font-size: 32px;
+  margin: 30px 0px 0px 15px;
+  color: #1d0d08;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+.info_work-container-text::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px; /* нужный размер стрелки */
+  height: 30px;
+  background-image: url(../../icons/icons8-стрелка-вправо-100.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+.info_work-container-sewing:hover .info_work-container-text::after,
+.info_work-container-repair:hover .info_work-container-text::after,
+.info_work-container-fitting:hover .info_work-container-text::after,
+.info_work-container-rent:hover .info_work-container-text::after {
+  transform: translateX(5px);
+}
+
+.info_clothing-examples {
+  margin: 0 auto;
+  padding: 100px 200px;
+}
+
+.info_clothing-examples-btn {
+  background-color: #1d0d08;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 5px 20px;
+  margin-right: 50px;
+  transition: all 0.5s;
+}
+
+.info_clothing-examples-btn:hover {
+  transform: scale(1.05);
+  color: #ebcccc;
+}
+
+.info_clothing-examples-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.info_clothing-examples-zoom-preview {
+  width: 690px;
+  height: 630px;
+  background-image: url(../../icons/clothing_examples/пальто_беж1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: opacity 0.3s ease, background-image 0.3s ease;
+  border-radius: 4px;
+  margin-right: 40px;
+}
+
+.info_clothing-examples-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.info_clothing-examples-container-img {
+  width: 220px;
+  height: 200px;
+  cursor: pointer;
+  object-fit: contain;
+  border-radius: 4px;
+  background-color: #dbcccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.info_clothing-examples-container-btn {
+  background-color: #dbcccc;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  width: 220px;
+  height: 200px;
+  transition: all 0.3s ease;
+}
+
+.info_clothing-examples-container-btn:hover {
+  background-color: #1d0d08;
+}
+
+.contact_form {
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.contact_form::after {
+  content: "";
+  display: block;
+  width: 950px; /* длина линии */
+  height: 1px; /* толщина линии */
+  background-color: #1d0d08;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.contact_form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form_header {
+  margin-bottom: 70px;
+}
+
+.form_header-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.form_info_container {
+  margin-right: 200px;
+}
+
+.form_info_container-number {
+  font-size: 32px;
+  margin-bottom: 70px;
+}
+
+.form_info_container-email {
+  font-size: 32px;
+  margin-bottom: 100px;
+}
+
+.form_info_container-btns-inst {
+  background: url(../../icons/footer_icons/icons8-instagram-100.png);
+}
+
+.form_info_container-btns-telegram {
+  background: url(../../icons/footer_icons/icons8-телеграм-100.png);
+}
+
+.form_info_container-btns-email {
+  background: url(../../icons/footer_icons/icons8-почта-100.png);
+}
+
+.form_info_container-btns-whatsapp {
+  background: url(../../icons/footer_icons/icons8-whatsapp-100.png);
+}
+
+.form_buttons {
+  margin-right: 20px;
+  width: 58px;
+  height: 58px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+}
+
+.form_buttons:hover {
+  transform: scale(1.1);
+}
+
+.form_grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form_group-input {
+  padding: 5px 200px 5px 5px;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.form_group-input::placeholder,
+.form_group-textarea::placeholder {
+  font-size: 24px;
+}
+
+.form_group-textarea {
+  padding-left: 5px;
+  width: 88%;
+  min-height: 100px;
+  max-width: 88%;
+  font-size: 18px;
+  box-sizing: border-box;
+  resize: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.checkbox-group {
+  display: flex;
+}
+
+.custom-label-text {
+  margin-left: 15px;
+  width: 350px;
+  font-size: 12px;
+}
+
+.submit-btn {
+  width: 250px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: #1d0d08;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.03);
+  color: #ebcccc;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1e2;
+  padding-bottom: 30px;
+}
+
+.footer_logo-item {
+  width: 500px;
+}
+
+.footer__nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+  margin-bottom: 50px;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footer_social-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer_social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_social-item {
+  margin-top: 40px;
+  margin-right: 30px;
+}
+
+.footer__nav-link:hover {
+  border-bottom: 1px solid rgb(165, 93, 93);
+}
+
+.footer_social-icon {
+  width: 46px;
+  height: 46px;
+  transition: all 0.3s;
+}
+
+.footer_social-icon:hover {
+  transform: scale(1.1);
+}
+
+input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: #bada55;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

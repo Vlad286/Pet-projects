@@ -1,0 +1,15 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build-css": "sass styles/scss/style.scss:styles/css/style.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.86.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

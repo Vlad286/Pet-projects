@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/css/reset.css" />
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <title>Repair</title>
+  </head>
+  <body>
+    <header class="header_repair">
+      <nav class="navigation_wrapper">
+        <ul class="navigation">
+          <li class="navigation_item" onclick="location.href='index.html'">ДОМ</li>
+          <li class="navigation_item">О СЕБЕ</li>
+          <li class="navigation_item" onclick="location.href='repair.html'">
+            РЕМОНТ
+          </li>
+          <li class="navigation_item">КОНТАКТ</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main_repair">
+      <article class="info_repair">
+        <section class="info_repair-clothes">
+          <div class="info_repair-clothes-container">
+            <h1 class="info_repair-clothes-container-title">
+              Reparatur und Restaurierung von Kleidung
+            </h1>
+            <h2 class="info_repair-clothes-container-text">
+              Verlängern Sie das Leben Ihrer Lieblingskleidung!
+            </h2>
+            <button class="info_repair-clothes-container-btn">
+              Brauchen Sie Hilfe bei der Auswahl?
+            </button>
+          </div>
+          <div class="circle-text-wrapper">
+            <svg viewBox="0 0 200 200" width="300" height="300">
+              <defs>
+                <path
+                  id="circlePath"
+                  d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"
+                />
+              </defs>
+              <text font-size="14.5" fill="#333" letter-spacing="2px">
+                <textPath href="#circlePath" startOffset="0%">
+                  KLEIDERREPARATUR • RESTAURIERUNG • LUSUXPFLEGE •
+                </textPath>
+              </text>
+            </svg>
+            <img
+              src="./icons/icons8-игла-80.png"
+              alt="Иголка"
+              class="center-img"
+            />
+          </div>
+        </section>
+        <section class="price-list">
+          <h2 class="price-list-title">Reparaturpreisliste</h2>
+          <div class="price-filter">
+            <input class="price-filter-input" type="text" id="searchInput" placeholder="Поиск услуг..." />
+            <select class="price-filter-select" id="categoryFilter">
+            </select>
+          </div>
+          <div class="price-container">
+
+            <!-- Контейнер для прайса -->
+            <div id="priceListContainer"></div>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+  <script src="price-list.js"></script>
+</html>
