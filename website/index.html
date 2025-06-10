@@ -169,28 +169,56 @@
           <button class="form_info_container-btns-whatsapp form_buttons"></button>
           </div>
         </section>
-        <form class="form_grid" action="">
-          <div class="form_group">
-            <input class="form_group-input" type="text" required placeholder="Your name">
-          </div>
-            <div class="form_group">
-              <input class="form_group-input" type="tel" required placeholder="Phone">
-            </div>
-            <div class="form_group">
-              <input class="form_group-input" type="email" required placeholder="E-mail">
-            </div>
-          <div class="form_group">
-            <textarea class="form_group-textarea" id="message" name="message" placeholder="Your letter"></textarea>
-          </div>
-          <div class="checkbox-group">
-                <input type="checkbox" id="agreement" name="agreement" required>
-                <label for="agreement"></label>
-                <span class="custom-label-text">
-      Mit dem Absenden des Formulars erklären Sie sich mit der Verarbeitung Ihrer personenbezogenen Daten und der Datenschutzerklärung einverstanden.
-    </span>
-            </div>
-            <button type="submit" class="submit-btn">ОТПРАВИТЬ</button>
-        </form>
+        <form class="form_grid" id="contactForm">
+  <!-- Имя -->
+  <div class="form_group">
+    <input class="form_group-input" type="text" name="name" 
+           required 
+           minlength="2"
+           placeholder="Your name">
+    <small class="error-message"></small>
+  </div>
+  
+  <!-- Телефон -->
+  <div class="form_group">
+    <input class="form_group-input" type="tel" name="phone"
+           required 
+           pattern="^\+?[0-9\-\(\)\.\s]{7,20}$"
+           placeholder="Phone">
+    <small class="error-message"></small>
+  </div>
+  
+  <!-- Email -->
+  <div class="form_group">
+    <input class="form_group-input" type="email" name="email"
+           required
+           placeholder="E-mail">
+    <small class="error-message"></small>
+  </div>
+  
+  <!-- Сообщение -->
+  <div class="form_group">
+    <textarea class="form_group-textarea" name="message"
+              required
+              minlength="10"
+              placeholder="Your letter"></textarea>
+    <small class="error-message"></small>
+  </div>
+  
+  <!-- Чекбокс -->
+<div class="checkbox_group">
+  <input type="checkbox" id="agreement" name="agreement" required>
+  <label for="agreement">
+  </label>
+  <span class="custom-label-text">
+    mit dem Absenden des Formulars erklären Sie sich mit der Verarbeitung Ihrer personenbezogenen Daten und der Datenschutzerklärung einverstanden.
+  </span>
+  <small class="error-message"></small>
+</div>
+
+  
+  <button type="submit" class="submit-btn">ОТПРАВИТЬ</button>
+</form>
       </div>
         </article>
         </main>
@@ -253,6 +281,8 @@
     </ul>
   </div>
 </footer>
+<script src="form-submit.js" defer></script>
   </body>
-  <script src="main.js"></script>
+  <script type="module" src="main.js"></script>
+
 </html>

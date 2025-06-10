@@ -1,3 +1,51 @@
+// main.js
+import {
+  validateTextField,
+  validateEmail,
+  validatePhone,
+  validateTextarea,
+  validateCheckbox,
+} from "./form-validation.js";
+
+const form = document.getElementById("contactForm");
+const inputs = {
+  name: form.querySelector('input[type="text"]'),  // Добавлена закрывающая кавычка
+  email: form.querySelector('input[type="email"]'),
+  phone: form.querySelector('input[type="tel"]'),
+  message: form.querySelector("textarea"),
+  agreement: document.getElementById("agreement"),
+};
+
+// Динамическая валидация при вводе
+inputs.name.addEventListener("blur", () => validateTextField(inputs.name, 2));
+inputs.email.addEventListener("blur", () => validateEmail(inputs.email));
+inputs.phone.addEventListener("blur", () => validatePhone(inputs.phone));
+inputs.message.addEventListener("blur", () =>
+  validateTextarea(inputs.message, 10)
+);
+
+// Валидация при отправке
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const isNameValid = validateTextField(inputs.name, 2);
+  const isEmailValid = validateEmail(inputs.email);
+  const isPhoneValid = validatePhone(inputs.phone);
+  const isMessageValid = validateTextarea(inputs.message, 10);
+  const isAgreementValid = validateCheckbox(inputs.agreement);
+
+  if (
+    isNameValid &&
+    isEmailValid &&
+    isPhoneValid &&
+    isMessageValid &&
+    isAgreementValid
+  ) {
+    console.log("Форма валидна, отправляем...");
+    // form.submit();
+  }
+});
+
 const btn = document.querySelector(".info_clothing-examples-container-btn");
 const container = document.querySelector(".info_clothing-examples-container");
 const zoomBlock = document.querySelector(
@@ -49,7 +97,3 @@ fetch("data/examples.json")
     }
     showingFirstPart = !showingFirstPart;
   });
-
- 
-  
-  

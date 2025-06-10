@@ -374,6 +374,11 @@ margin-bottom: 70px;
   font-weight: 600;
 }
 
+.form_group {
+display: flex;
+flex-direction: column;
+}
+
 .form_info_container {
   margin-right: 200px;
 }
@@ -445,7 +450,7 @@ margin-bottom: 70px;
   border-bottom: 1px solid black;
 }
 
-.checkbox-group {
+.checkbox_group {
   display: flex;
 }
 
@@ -569,3 +574,15 @@ input:checked + label:after {
 label:active:after {
 	width: 20px;
 }
+
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+

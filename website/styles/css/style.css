@@ -652,6 +652,11 @@ svg {
   font-weight: 600;
 }
 
+.form_group {
+  display: flex;
+  flex-direction: column;
+}
+
 .form_info_container {
   margin-right: 200px;
 }
@@ -725,7 +730,7 @@ svg {
   border-bottom: 1px solid black;
 }
 
-.checkbox-group {
+.checkbox_group {
   display: flex;
 }
 
@@ -847,4 +852,12 @@ label:active:after {
   width: 20px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}

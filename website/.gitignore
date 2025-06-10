@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# VSCode настройки
+.vscode/
+
+# Карты стилей (необязательно, но часто игнорируют)
+*.map
+
+# .env файлы (если используешь для токенов, API-ключей и т.д.)
+.env
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Сборочные файлы (если начнёшь использовать Webpack, Vite и т.д.)
+dist/
+build/
