@@ -1,0 +1,436 @@
+{
+  "categories": [
+    {
+      "id": "blusen-and-hemden",
+      "title": "BLUSEN UND HEMDEN",
+      "icon": "icons/repair_icons/icons8-женская-блузка-80.png",
+      "items": [
+        {
+          "name": "Länge kürzen ",
+          "price": "18€"
+        },
+        {
+          "name": "Länge kürzen mit Schlitz",
+          "price": "22€"
+        },
+        {
+          "name": "Ärmel kürzen ab",
+          "price": "16€"
+        },
+        {
+          "name": "Ärmel kürzen Hemd",
+          "price": "30€"
+        },
+        {
+          "name": "Ärmel kürzen mit Gummi ab",
+          "price": "18€"
+        },
+        {
+          "name": "Ärmel kürzen/Bündchen ab",
+          "price": "18€"
+        },
+        {
+          "name": "Ärmel verlängern",
+          "price": "23€"
+        },
+        {
+          "name": "Ärmel heben",
+          "price": "25€"
+        },
+        {
+          "name": "Ärmel heben mit Futter",
+          "price": "32€"
+        },
+        {
+          "name": "Ärmel neu ab",
+          "price": "40€"
+        },
+        {
+          "name": "Rücken enger ab",
+          "price": "18€"
+        },
+        {
+          "name": "Seiten engen ab",
+          "price": "20€"
+        },
+        {
+          "name": "Seiten engen/durchgehend mit Ärmel",
+          "price": "28€"
+        },
+        {
+          "name": "Schlitz verlängern",
+          "price": "12€"
+        },
+        {
+          "name": "Schlitz neue machen",
+          "price": "18€"
+        },
+        {
+          "name": "Abnäher am Rückenteil",
+          "price": "16€"
+        },
+        {
+          "name": "Kragen wenden",
+          "price": "18€"
+        },
+        {
+          "name": "Ellbogenflecken aufnähen",
+          "price": "28€"
+        }
+      ]
+    },
+    {
+      "id": "jacken",
+      "title": "JACKEN",
+      "icon": "icons/repair_icons/icons8-куртка-100.png",
+      "items": [
+        {
+          "name": "Länge kürzen ab",
+          "price": "30€"
+        },
+        {
+          "name": "Länge kürzen Blazer",
+          "price": "40€"
+        },
+        {
+          "name": "Blazer kürzen mit Schlitze ab",
+          "price": "50€"
+        },
+        {
+          "name": "Ärmel kürzen Blazer",
+          "price": "35€"
+        },
+        {
+          "name": "Ärmel kürzen/einfach",
+          "price": "25€"
+        },
+        {
+          "name": "Ärmel kürzen mit Stulpe",
+          "price": "28€"
+        },
+        {
+          "name": "Ärmel kürzen/Manschette",
+          "price": "30€"
+        },
+        {
+          "name": "Ärmel kürzen/Bündchen",
+          "price": "30€"
+        },
+        {
+          "name": "Ärmel kürzen mit Spange",
+          "price": "35€"
+        },
+        {
+          "name": "Ärmel verlängern ab",
+          "price": "30€"
+        },
+        {
+          "name": "Ärmel heben/einfach",
+          "price": "55€(80€)"
+        },
+        {
+          "name": "Seiten engen/weiten",
+          "price": "35€"
+        },
+        {
+          "name": "Kragen kleiner ab ",
+          "price": "40€"
+        },
+        {
+          "name": "Reißverschluss reparieren",
+          "price": "12€"
+        },
+        {
+          "name": "Reißverschluss neu/Arbeit",
+          "price": "45€"
+        },
+        {
+          "name": "ohne Futter",
+          "price": "35€"
+        },
+        {
+          "name": "Strickjacke",
+          "price": "35€"
+        },
+        {
+          "name": "Futter neu/nur Arbeit ab",
+          "price": "95€"
+        },
+        {
+          "id": "lederjacken",
+          "title": "LEDERJACKEN",
+          "items": [
+            {
+              "name": "Ärmel kürzen mit RV",
+              "price": "48€"
+            },
+            {
+              "name": "RV neu/Arbeit",
+              "price": "60€"
+            },
+            {
+              "name": "Seiten engen",
+              "price": "70€"
+            },
+            {
+              "name": "Neu füttern",
+              "price": "145€"
+            },
+            {
+              "name": "Knopf annähen",
+              "price": "5€"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-shirt-und-top",
+      "title": "T-SHIRT UND TOP",
+      "icon": ["icons/repair_icons/icons8-футболка-80.png"],
+      "items": [
+        {
+          "name": "Länge kürzen",
+          "price": "18€"
+        },
+        {
+          "name": "Kürzen mit Schlitz",
+          "price": "20€"
+        },
+        {
+          "name": "Kürzen mit Bündchen",
+          "price": "18€"
+        },
+        {
+          "name": "Länge verlängern",
+          "price": "20€"
+        },
+        {
+          "name": "Ärmel kürzen",
+          "price": "16€"
+        },
+        {
+          "name": "Ärmel verlängern",
+          "price": "20€"
+        },
+        {
+          "name": "Ärmel heben",
+          "price": "20€"
+        },
+        {
+          "name": "Weiten ab",
+          "price": "25€"
+        },
+        {
+          "name": "Seiten enger/einfach",
+          "price": "18€"
+        },
+        {
+          "name": "Seiten enger mit Futter",
+          "price": "23€"
+        },
+        {
+          "name": "Seiten engen mit Ärmel",
+          "price": "23€"
+        },
+        {
+          "name": "Träger kürzen/einfach ab",
+          "price": "10€"
+        },
+        {
+          "name": "Träger heben/einfach",
+          "price": "16€"
+        },
+        {
+          "name": "Träger heben mit Futter ab",
+          "price": "23€"
+        },
+        {
+          "name": "Träger neu",
+          "price": "18€"
+        },
+        {
+          "name": "Anzugsweste enger",
+          "price": "35€"
+        }
+      ]
+    },
+    {
+      "id": "pullis",
+      "title": "PULLIS",
+      "icon": "icons/repair_icons/icons8-свитер-100.png",
+      "items": [
+        {
+          "name": "Länge kürzen",
+          "price": "20€"
+        },
+        {
+          "name": "Ärmel kürzen",
+          "price": "18€"
+        },
+        {
+          "name": "Ärmel enger ab",
+          "price": "18€"
+        },
+        {
+          "name": "Ärmel enger, kürzen",
+          "price": "30€"
+        },
+        {
+          "name": "Seiten enger",
+          "price": "25€"
+        },
+        {
+          "name": "Ellbogenflecken aufmähen",
+          "price": "28€"
+        }
+      ]
+    },
+    {
+      "id": "mantel",
+      "title": "MANTEL",
+      "icon": "icons/repair_icons/icons8-пальто-100.png",
+      "items": [
+        { "name": "Kürzen ab", "price": "50€" },
+        { "name": "Ärmel kürzen", "price": "35€" },
+        { "name": "Engen", "price": "60€" },
+        { "name": "Neu füttern", "price": "125€" },
+        { "name": "Knopf annähen", "price": "4€" },
+        {
+          "id": "pelzmantel",
+          "title": "PELZMANTEL",
+          "items": [
+            { "name": "Länge kürzen ab", "price": "90€" },
+            { "name": "Ärmel kürzen ab", "price": "55€" },
+            { "name": "Neu füttern ab", "price": "170€" }
+          ]
+        },
+        {
+          "id": "ledermantel",
+          "title": "LEDERMANTEL",
+          "items": [
+            { "name": "Ärmel kürzen ", "price": "55€" },
+            { "name": "Länge kürzen", "price": "70€" },
+            { "name": "Neu füttern", "price": "160€" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rock",
+      "title": "ROCK",
+      "icon": "icons/repair_icons/icons8-юбка-100.png",
+      "items": [
+        { "name": "Kürzen ab", "price": "20€" },
+        { "name": "Kürzen mit Covernaht", "price": "23€" },
+        { "name": "Kürzen mit Futter ab", "price": "30€" },
+        { "name": "Kürzen mit Schlitz", "price": "35€" },
+        { "name": "Kürzen Falten/Glocke", "price": "40€" },
+        { "name": "Kürzen Roll Saum ab", "price": "30€" },
+        { "name": "Kürzen von oben ab", "price": "30€" },
+        { "name": "Mit Bund von oben ab", "price": "35€" },
+        { "name": "Saum falschbesetzen", "price": "28€" },
+        { "name": "Enger mit Bund ab", "price": "28€" },
+        { "name": "Engen mit Bund und Futter ab", "price": "35€" },
+        { "name": "Enger mit Futter und RV", "price": "40€" },
+        { "name": "Enger ohne Bund", "price": "20€" },
+        { "name": "Neue Bund/Gummi ab", "price": "20€" },
+        { "name": "Schlitz neu ab", "price": "18€" },
+        { "name": "Reißverschluss neu inkl. RV", "price": "25€" },
+        { "name": "RV neu inkl. RV mit Futter", "price": "28€" },
+        { "name": "Neue Futter ab", "price": "50€" },
+        {
+          "id": "lederrock",
+          "title": "LEDERROCK",
+          "items": [
+            { "name": "Kürzen", "price": "45€" },
+            { "name": "Engen", "price": "55€" },
+            { "name": "Reißverschluss", "price": "39€" },
+            { "name": "Neu füttern ab", "price": "65€" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kleider",
+      "title": "KLEIDER",
+      "icon": "icons/repair_icons/icons8-платье-100.png",
+      "items": [
+        { "name": "Abendkleid kürzen ab", "price": "50€" },
+        { "name": "Dirndl kürzen ab", "price": "35€" },
+        { "name": "Schürze kürzen", "price": "15€" },
+        { "name": "Dirndl Träger heben", "price": "40€" },
+        { "name": "Seiten engen ab", "price": "25€" },
+        { "name": "Seiten engen mit Futter ab", "price": "30€" },
+        { "name": "Seiten engen Futter/RV", "price": "38€" },
+        { "name": "Hinten engen mit RV", "price": "35€" },
+        { "name": "Dirndl engen/weiten ab", "price": "25€" },
+        { "name": "Ausschnitt neu ab", "price": "25€" },
+        { "name": "Träger neu ab", "price": "25€" },
+        { "name": "Reißverschluss neu inkl. RV ab", "price": "28€" },
+        { "name": "Mit Futter inkl. RV", "price": "35€" },
+        { "name": "Futter neu ab", "price": "65€" }
+      ]
+    },
+    {
+      "id": "hosen",
+      "title": "HOSEN",
+      "icon": "icons/repair_icons/icons8-брюки-100.png",
+      "items": [
+        { "name": "Kürzen/Jeans", "price": "15€" },
+        { "name": "Kürzen/Jeans original", "price": "20€" },
+        { "name": "Kürzen/Blindenstich", "price": "20€" },
+        { "name": "Kürzen/Covernaht", "price": "16€" },
+        { "name": "Kürzen mit Schlitz", "price": "22€" },
+        { "name": "Kürzen mit Stoßband", "price": "20€" },
+        { "name": "Kürzen mit Bündchen", "price": "20€" },
+        { "name": "Kürzen mit Aufschlag", "price": "22€" },
+        { "name": "Kürzen mit Futter", "price": "25€" },
+        { "name": "Kürzen mit RV", "price": "28€" },
+        { "name": "Kürzen von oben/Gummi", "price": "25€" },
+        { "name": "Kürzen von oben/Bund", "price": "35€" },
+        { "name": "Hüfte enger", "price": "16€" },
+        { "name": "Hüfte enger mit RV ab", "price": "23€" },
+        { "name": "Hosenbeine engen von Knie", "price": "18€" },
+        { "name": "Hosenbeine engen einseitig", "price": "25€" },
+        { "name": "Hosenbeine engen beidseitig", "price": "35€" },
+        { "name": "Beine engen und kürzen", "price": "38€" },
+        { "name": "Keil einsetzen hinten", "price": "30€" },
+        { "name": "Keile einsetzen beidseitig", "price": "35€" },
+        { "name": "Keile einsetzen im Schritt", "price": "30€" },
+        { "name": "Reißverschluss neu inkl. RV", "price": "23€" },
+        { "name": "Reißverschluss neu inkl. RV Tasche", "price": "25€" },
+        { "name": "Taschenbeutel neu", "price": "20€" },
+        { "name": "Taschenbeutel reparieren ab", "price": "10€" },
+        { "name": "Bundeschlaufe neu", "price": "5€" },
+        { "name": "Taschen zunähen/beutel raus", "price": "15€" },
+        { "name": "Gummi neu ab", "price": "15€" },
+        { "name": "Gummi weiten/Bund", "price": "18€" },
+        { "name": "Druckknopf neu", "price": "8€" },
+        { "name": "Jeansknopf neu", "price": "6€" },
+        { "name": "Jeans flicken im Schritt beidseitig", "price": "15€" },
+        { "name": "Im Schritt Falte", "price": "18€" },
+        {
+          "id": "lederhose",
+          "title": "LEDERHOSE",
+          "items": [
+            { "name": "Kürzen", "price": "25€" },
+            { "name": "Engen", "price": "50€" },
+            { "name": "Reißverschluss", "price": "39€" },
+            { "name": "Neu füttern ab", "price": "60€" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gardinen",
+      "title": "GARDINEN UND VORHÄNGE",
+      "icon": "icons/repair_icons/icons8-шторы-100.png",
+      "items": [
+        { "name": "Ein meternaht", "price": "8€" },
+        { "name": "Mit Zieh Band", "price": "15€" },
+        { "name": "Deko Schaal kürzen", "price": "15€" }
+      ]
+    }
+  ]
+}
