@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "SERVICES",
+    "examples":"EXAMPLES OF WORK",
+    "repair": "CLOTHES REPAIR",
+    "contact": "CONTACT"
+  },
+  "header": {
+    "title": "Atelier",
+    "name": "ALENA RYVKINA"
+  },
+  "clothes": {
+    "corset": "Corset",
+    "jacket": "Jackets",
+    "evening": "Evening dresses",
+    "daily": "Everyday dresses"
+  },
+  "info": {
+    "services": "My Services",
+    "ask": "Need help choosing?",
+    "tailor": "Tailored Clothing",
+    "repair": "Repairs & Alterations",
+    "fitting": "Fitting Service",
+    "rent": "Rent Designer Clothing",
+    "examples": "Work Samples",
+    "order": "Order Product",
+    "more": "More"
+  },
+  "form": {
+    "title": "A dream, a vision, a feeling – tell me about it. Together we will sew something truly special",
+    "name": "Your name",
+    "phone": "Phone",
+    "email": "E-mail",
+    "message": "Your letter",
+    "agreement": "By submitting the form, you agree to the processing of your personal data and privacy policy.",
+    "submit": "SEND"
+  },
+  "footer": {
+    "socials": "My Social Networks"
+  },
+  "repairPage": {
+    "title": "Clothing Repair and Restoration",
+    "subtitle": "Extend the life of your favorite clothing!",
+    "button": "Need help choosing?",
+    "circleText": "CLOTHING REPAIR • RESTORATION • LUXURY CARE •",
+    "priceTitle": "Repair Price List",
+    "searchPlaceholder": "Search for a service...",
+    "selectPlaceholder": "Select category"
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "heading": "Privacy Policy",
+    "intro": "We appreciate your interest in our website. The protection of your personal data is very important to us. Below we inform you about which personal data we collect, how we use it, and what rights you have regarding your data.",
+    "section1Title": "1. Responsible Entity",
+    "section1Text": "The entity responsible for data processing on this website is:\nAlena Rivkina\n[Adresse]\naryvkina@web.de",
+    "section2Title": "2. Collection and Processing of Personal Data",
+    "section2Text": "We collect personal data only if you voluntarily provide it to us via the contact form. The data collected usually includes:",
+    "section2Text2": "- Name",
+    "section2Text3": "- Email address",
+    "section2Text4": "- Phone number (if provided)",
+    "section2Text5": "- Content of your message",
+    "section2Text6": "These data are used exclusively for processing your inquiry. No transfer to third parties takes place.",
+    "section3Title": "3. Data Transmission",
+    "section3Text": "The data entered via the contact form are transmitted encrypted and, if applicable, processed by a third party (e.g., Telegram). By submitting the form, you consent to this processing.",
+    "section4Title": "4. Your Rights",
+    "section4Text": "You have the right to information about the personal data stored with us, their correction, deletion, or restriction of processing, as well as the right to object to processing.",
+    "section4Text2":"To exercise your rights, you can contact us at any time at the address given above.",
+    "section5Title": "5. Contact",
+    "section5Text": "If you have any questions about data protection, please contact:\naryvkina@web.de"
+  }
+}

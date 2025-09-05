@@ -1,49 +1,5 @@
 [
     {
-        "src":"icons/clothing_examples/беж.jpg",
-        "alt":"Бежевое пальто"
-    },
-    {   
-        "src":"icons/clothing_examples/пальто_беж1.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/блузка.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/серое_платье.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/черный_корсет.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/пальто_беж.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/черное_платье.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/корсет_серебристый.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/курточка.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/платье_фиол.jpg",
-        "alt":""
-    },
-    {
-        "src":"icons/clothing_examples/бежевый_корсет.jpg",
-        "alt":""
-    },
-    {
         "src":"icons/clothing_examples/модел_беж.jpg",
         "alt":""
     },
@@ -65,6 +21,70 @@
     },
     {
         "src":"icons/clothing_examples/модель_фиол.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/модель_голубое.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/модель_зеленое1.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/модель_синее.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/модель_темно-синее.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/модель_черное.jpg",
+        "alt":""
+    },
+      {
+        "src":"icons/clothing_examples/беж.jpg",
+        "alt":"Бежевое пальто"
+    },
+    {   
+        "src":"icons/clothing_examples/пальто_беж1.png",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/блузка.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/серое_платье.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/черный_корсет.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/пальто_беж.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/футболка.png",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/корсет_серебристый.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/бежевая_куртка.jpg",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/платье_фиол.png",
+        "alt":""
+    },
+    {
+        "src":"icons/clothing_examples/бежевый_корсет.jpg",
         "alt":""
     }
 ]
