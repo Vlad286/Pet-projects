@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/css/reset.css" />
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <title>Datenschutzerklärung</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+        padding: 40px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        color: #2c3e50;
+        font-size: 28px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 10px;
+      }
+
+      h2 {
+        color: #2c3e50;
+        font-size: 20px;
+        margin-top: 30px;
+      }
+
+      p {
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+
+      .highlight {
+        font-weight: bold;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header_repair">
+      <nav class="navigation_wrapper">
+        <ul class="navigation">
+          <li class="navigation_logo">
+            <img class="navigation_logo-item" src="" alt="" />
+          </li>
+          <li
+            class="navigation_item"
+            data-i18n="nav.home"
+            onclick="location.href='index.html'"
+          >
+            HOME
+          </li>
+          <li class="navigation_item" data-i18n="nav.about">ÜBER MICH</li>
+          <li
+            class="navigation_item"
+            onclick="location.href='repair.html'"
+            data-i18n="nav.repair"
+          >
+            KLEIDERREPARATUR
+          </li>
+          <li class="navigation_item" data-i18n="nav.contact">KONTAKT</li>
+        </ul>
+        <div class="language-switcher">
+          <img
+            src="./icons/flags/de_language.png"
+            class="lang-icon"
+            alt="Deutsch"
+            data-lang="de"
+          />
+          <img
+            src="./icons/flags/en_language.png"
+            class="lang-icon"
+            alt="English"
+            data-lang="en"
+          />
+          <img
+            src="./icons/flags/ru_language.png"
+            class="lang-icon"
+            alt="Русский"
+            data-lang="ru"
+          />
+        </div>
+      </nav>
+    </header>
+    <h1 data-i18n="privacyPage.title">Datenschutzerklärung</h1>
+
+    <p data-i18n="privacyPage.intro">
+      Wir freuen uns über Ihr Interesse an unserer Website. Der Schutz Ihrer
+      persönlichen Daten ist uns ein wichtiges Anliegen. Nachstehend informieren
+      wir Sie darüber, welche personenbezogenen Daten wir erheben, wie wir diese
+      verwenden und welche Rechte Sie in Bezug auf Ihre Daten haben.
+    </p>
+
+    <h2 data-i18n="privacyPage.section1Title">1. Verantwortliche Stelle</h2>
+    <p data-i18n="privacyPage.section1Text">
+      Verantwortlich für die Datenverarbeitung auf dieser Website ist:<br />
+      <span class="highlight">Alena Rivkina</span><br />
+      <span class="highlight">[Adresse]</span><br />
+      <span class="highlight">aryvkina@web.de</span>
+    </p>
+
+    <h2 data-i18n="privacyPage.section2Title">
+      2. Erhebung und Verarbeitung personenbezogener Daten
+    </h2>
+    <p data-i18n="privacyPage.section2Text">
+      Wir erheben personenbezogene Daten nur dann, wenn Sie uns diese über das
+      Kontaktformular freiwillig mitteilen. Zu den erhobenen Daten gehören in
+      der Regel:
+    </p>
+    <ul>
+      <li data-i18n="privacyPage.section2Text2">Name</li>
+      <li data-i18n="privacyPage.section2Text3">E-Mail-Adresse</li>
+      <li data-i18n="privacyPage.section2Text4">
+        Telefonnummer (falls angegeben)
+      </li>
+      <li data-i18n="privacyPage.section2Text5">Inhalt Ihrer Nachricht</li>
+    </ul>
+    <p data-i18n="privacyPage.section2Text6">
+      Diese Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.
+      Eine Weitergabe an Dritte erfolgt nicht.
+    </p>
+
+    <h2 data-i18n="privacyPage.section3Title">3. Datenübertragung</h2>
+    <p data-i18n="privacyPage.section3Text">
+      Die über das Kontaktformular eingegebenen Daten werden verschlüsselt
+      übertragen und ggf. über einen Drittanbieter (z. B. Telegram) verarbeitet.
+      Mit dem Absenden des Formulars erklären Sie sich mit dieser Verarbeitung
+      einverstanden.
+    </p>
+
+    <h2 data-i18n="privacyPage.section4Title">4. Ihre Rechte</h2>
+    <p data-i18n="privacyPage.section4Text">
+      Sie haben das Recht auf Auskunft über die bei uns gespeicherten
+      personenbezogenen Daten, deren Berichtigung, Löschung oder Einschränkung
+      der Verarbeitung sowie ein Widerspruchsrecht gegen die Verarbeitung.
+    </p>
+    <p data-i18n="privacyPage.section4Text2">
+      Zur Ausübung Ihrer Rechte können Sie uns jederzeit unter der oben
+      angegebenen Adresse kontaktieren.
+    </p>
+
+    <h2 data-i18n="privacyPage.section5Title">5. Kontakt</h2>
+    <p data-i18n="privacyPage.section5Text">
+      Bei Fragen zum Datenschutz wenden Sie sich bitte an:<br />
+      <span class="highlight">aryvkina@web.de</span>
+    </p>
+    
+  </body>
+  <script src="switch-language.js" defer></script>
+</html>

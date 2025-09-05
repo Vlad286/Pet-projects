@@ -11,26 +11,69 @@
     <header class="header_repair">
       <nav class="navigation_wrapper">
         <ul class="navigation">
-          <li class="navigation_item" onclick="location.href='index.html'">ДОМ</li>
-          <li class="navigation_item">О СЕБЕ</li>
-          <li class="navigation_item" onclick="location.href='repair.html'">
-            РЕМОНТ
+          <li class="navigation_logo">
+            <img class="navigation_logo-item" src="" alt="" />
           </li>
-          <li class="navigation_item">КОНТАКТ</li>
+          <li
+            class="navigation_item"
+            data-i18n="nav.home"
+            onclick="location.href='index.html'"
+          >
+            HOME
+          </li>
+          <li class="navigation_item" data-i18n="nav.about"></li>
+          <li class="navigation_item" data-i18n="nav.examples"></li>
+          <li
+            class="navigation_item"
+            onclick="location.href='repair.html'"
+            data-i18n="nav.repair"
+          >
+            KLEIDERREPARATUR
+          </li>
+          <li class="navigation_item" data-i18n="nav.contact">KONTAKT</li>
         </ul>
+        <div class="language-switcher">
+          <img
+            src="./icons/flags/de_language.png"
+            class="lang-icon"
+            alt="Deutsch"
+            data-lang="de"
+          />
+          <img
+            src="./icons/flags/en_language.png"
+            class="lang-icon"
+            alt="English"
+            data-lang="en"
+          />
+          <img
+            src="./icons/flags/ru_language.png"
+            class="lang-icon"
+            alt="Русский"
+            data-lang="ru"
+          />
+        </div>
       </nav>
     </header>
     <main class="main_repair">
       <article class="info_repair">
         <section class="info_repair-clothes">
           <div class="info_repair-clothes-container">
-            <h1 class="info_repair-clothes-container-title">
+            <h1
+              class="info_repair-clothes-container-title"
+              data-i18n="repairPage.title"
+            >
               Reparatur und Restaurierung von Kleidung
             </h1>
-            <h2 class="info_repair-clothes-container-text">
+            <h2
+              class="info_repair-clothes-container-text"
+              data-i18n="repairPage.subtitle"
+            >
               Verlängern Sie das Leben Ihrer Lieblingskleidung!
             </h2>
-            <button class="info_repair-clothes-container-btn">
+            <button
+              class="info_repair-clothes-container-btn"
+              data-i18n="repairPage.button"
+            >
               Brauchen Sie Hilfe bei der Auswahl?
             </button>
           </div>
@@ -43,7 +86,11 @@
                 />
               </defs>
               <text font-size="14.5" fill="#333" letter-spacing="2px">
-                <textPath href="#circlePath" startOffset="0%">
+                <textPath
+                  href="#circlePath"
+                  startOffset="0%"
+                  data-i18n="repairPage.circleText"
+                >
                   KLEIDERREPARATUR • RESTAURIERUNG • LUSUXPFLEGE •
                 </textPath>
               </text>
@@ -55,15 +102,25 @@
             />
           </div>
         </section>
-        <section class="price-list">
-          <h2 class="price-list-title">Reparaturpreisliste</h2>
+        <section class="price-list" id="price-list">
+          <h2 class="price-list-title" data-i18n="repairPage.priceTitle">
+            Reparaturpreisliste
+          </h2>
           <div class="price-filter">
-            <input class="price-filter-input" type="text" id="searchInput" placeholder="Поиск услуг..." />
-            <select class="price-filter-select" id="categoryFilter">
-            </select>
+            <input
+              class="price-filter-input"
+              type="text"
+              id="searchInput"
+              data-i18n-placeholder="repairPage.searchPlaceholder"
+              placeholder="Поиск услуг..."
+            />
+            <select
+              class="price-filter-select"
+              id="categoryFilter"
+              id="categoryFilter"
+            ></select>
           </div>
           <div class="price-container">
-
             <!-- Контейнер для прайса -->
             <div id="priceListContainer"></div>
           </div>
@@ -71,5 +128,6 @@
       </article>
     </main>
   </body>
+  <script src="switch-language.js"></script>
   <script src="price-list.js"></script>
 </html>

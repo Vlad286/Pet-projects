@@ -1,0 +1,247 @@
+{
+  "categories": [
+    {
+      "id": "blusen-and-hemden",
+      "title": "Blouses and Shirts",
+      "icon": "icons/repair_icons/icons8-женская-блузка-80.png",
+      "items": [
+        { "name": "Shorten length", "price": "18€" },
+        { "name": "Shorten length with slit", "price": "22€" },
+        { "name": "Shorten sleeves (basic)", "price": "16€" },
+        { "name": "Shorten shirt sleeves", "price": "30€" },
+        { "name": "Shorten sleeves with elastic", "price": "18€" },
+        { "name": "Shorten sleeves/cuffs", "price": "18€" },
+        { "name": "Lengthen sleeves", "price": "23€" },
+        { "name": "Raise sleeves", "price": "25€" },
+        { "name": "Raise sleeves with lining", "price": "32€" },
+        { "name": "Full sleeve replacement", "price": "40€" },
+        { "name": "Take in at the back (basic)", "price": "18€" },
+        { "name": "Take in at sides (basic)", "price": "20€" },
+        { "name": "Take in sides including sleeves", "price": "28€" },
+        { "name": "Lengthen slit", "price": "12€" },
+        { "name": "Create new slit", "price": "18€" },
+        { "name": "Darts on the back", "price": "16€" },
+        { "name": "Flip the collar", "price": "18€" },
+        { "name": "Sew elbow patches", "price": "28€" }
+      ]
+    },
+    {
+      "id": "jacken",
+      "title": "Jackets",
+      "icon": "icons/repair_icons/icons8-куртка-100.png",
+      "items": [
+        { "name": "Shorten length", "price": "30€" },
+        { "name": "Shorten blazer", "price": "40€" },
+        { "name": "Shorten blazer with slits", "price": "50€" },
+        { "name": "Shorten blazer sleeves", "price": "35€" },
+        { "name": "Shorten sleeves (basic)", "price": "25€" },
+        { "name": "Shorten sleeves with vent", "price": "28€" },
+        { "name": "Shorten sleeves with cuff", "price": "30€" },
+        { "name": "Shorten sleeves with elastic", "price": "30€" },
+        { "name": "Shorten sleeves with stay", "price": "35€" },
+        { "name": "Lengthen sleeves", "price": "30€" },
+        { "name": "Raise sleeves", "price": "55€ (80€)" },
+        { "name": "Take in/let out at sides", "price": "35€" },
+        { "name": "Reduce collar size", "price": "40€" },
+        { "name": "Zipper repair", "price": "12€" },
+        { "name": "Zipper replacement labor", "price": "45€" },
+        { "name": "Without lining", "price": "35€" },
+        { "name": "Cardigan", "price": "35€" },
+        { "name": "New lining labor", "price": "95€" }
+      ],
+      "lederjacken": {
+        "id": "lederjacken",
+      "title": "Leather Jackets",
+      "items": [
+        { "name": "Shorten sleeves with zipper", "price": "48€" },
+        { "name": "Zipper replacement labor", "price": "60€" },
+        { "name": "Take in at sides", "price": "70€" },
+        { "name": "New lining", "price": "145€" },
+        { "name": "Sew button", "price": "5€" }
+        ]
+      }
+    },
+    {
+      "id": "t-shirt-und-top",
+      "title": "T-Shirts and Tops",
+      "icon": ["icons/repair_icons/icons8-футболка-80.png"],
+      "items": [
+        { "name": "Shorten length", "price": "18€" },
+        { "name": "Shorten with slit", "price": "20€" },
+        { "name": "Shorten with cuff", "price": "18€" },
+        { "name": "Lengthen", "price": "20€" },
+        { "name": "Shorten sleeves", "price": "16€" },
+        { "name": "Lengthen sleeves", "price": "20€" },
+        { "name": "Raise sleeves", "price": "20€" },
+        { "name": "Take in width", "price": "25€" },
+        { "name": "Slim sides (simple option)", "price": "18€" },
+        { "name": "Slim sides with lining", "price": "23€" },
+        { "name": "Slim sides with sleeve", "price": "23€" },
+        { "name": "Shorten straps (simple)", "price": "10€" },
+        { "name": "Raise straps (simple)", "price": "16€" },
+        { "name": "Raise straps with lining", "price": "23€" },
+        { "name": "New straps", "price": "18€" },
+        { "name": "Tailor vest", "price": "35€" }
+      ]
+    },
+    {
+      "id": "pullis",
+      "title": "Sweaters",
+      "icon": "icons/repair_icons/icons8-свитер-100.png",
+      "items": [
+        { "name": "Shorten length", "price": "20€" },
+        { "name": "Shorten sleeves", "price": "18€" },
+        { "name": "Narrow sleeves", "price": "18€" },
+        { "name": "Narrow and shorten sleeves", "price": "30€" },
+        { "name": "Narrow at sides", "price": "25€" },
+        { "name": "Sew elbow patches", "price": "28€" }
+      ]
+    },
+    {
+      "id": "mantel",
+      "title": "Coats",
+      "icon": "icons/repair_icons/icons8-пальто-100.png",
+      "items": [
+        { "name": "Shorten", "price": "50€" },
+        { "name": "Shorten sleeves", "price": "35€" },
+        { "name": "Narrow coat", "price": "60€" },
+        { "name": "Replace lining", "price": "125€" },
+        { "name": "Sew on button", "price": "4€" },
+        {
+          "id": "pelzmantel",
+          "title": "Fur Coat",
+          "items": [
+            { "name": "Shorten length", "price": "90€" },
+            { "name": "Shorten sleeves", "price": "55€" },
+            { "name": "Replace lining", "price": "170€" }
+          ]
+        },
+        {
+          "id": "ledermantel",
+          "title": "Leather Coat",
+          "items": [
+            { "name": "Shorten sleeves", "price": "55€" },
+            { "name": "Shorten length", "price": "70€" },
+            { "name": "Replace lining", "price": "160€" }
+          ]
+        }
+      ]
+    },
+    {
+     "id": "rock",
+      "title": "Skirts",
+      "icon": "icons/repair_icons/icons8-юбка-100.png",
+      "items": [
+        { "name": "Shorten", "price": "20€" },
+        { "name": "Shorten with cover stitch", "price": "23€" },
+        { "name": "Shorten with lining", "price": "30€" },
+        { "name": "Shorten with slit", "price": "35€" },
+        { "name": "Shorten pleats/flared", "price": "40€" },
+        { "name": "Shorten with rolled hem", "price": "30€" },
+        { "name": "Shorten from the top", "price": "30€" },
+        { "name": "With waistband from the top", "price": "35€" },
+        { "name": "Finish hem incorrectly", "price": "28€" },
+        { "name": "Slim with waistband", "price": "28€" },
+        { "name": "Slim with waistband and lining", "price": "35€" },
+        { "name": "Slim with lining and zipper", "price": "40€" },
+        { "name": "Slim without waistband", "price": "20€" },
+        { "name": "New waistband/elastic", "price": "20€" },
+        { "name": "New slit", "price": "18€" },
+        { "name": "New zipper incl. labor", "price": "25€" },
+        { "name": "New zipper with lining", "price": "28€" },
+        { "name": "New lining", "price": "50€" },
+        {
+          "id": "lederrock",
+          "title": "Leather Skirts",
+          "items": [
+            { "name": "Shorten", "price": "45€" },
+            { "name": "Slim", "price": "55€" },
+            { "name": "Zipper", "price": "39€" },
+            { "name": "New lining", "price": "65€" }
+          ]
+        }
+      ]
+    },
+    {
+       "id": "kleider",
+      "title": "Dresses",
+      "icon": "icons/repair_icons/icons8-платье-100.png",
+      "items": [
+        { "name": "Shorten evening dress", "price": "50€" },
+        { "name": "Shorten dirndl", "price": "35€" },
+        { "name": "Shorten apron", "price": "15€" },
+        { "name": "Raise dirndl straps", "price": "40€" },
+        { "name": "Slim sides", "price": "25€" },
+        { "name": "Slim sides with lining", "price": "30€" },
+        { "name": "Slim sides with lining/zipper", "price": "38€" },
+        { "name": "Slim back with zipper", "price": "35€" },
+        { "name": "Slim/widen dirndl", "price": "25€" },
+        { "name": "New neckline", "price": "25€" },
+        { "name": "New straps", "price": "25€" },
+        { "name": "New zipper incl. labor", "price": "28€" },
+        { "name": "With lining and zipper", "price": "35€" },
+        { "name": "New lining", "price": "65€" }
+      ]
+    },
+    {
+      "id": "hosen",
+      "title": "Trousers",
+      "icon": "icons/repair_icons/icons8-брюки-100.png",
+      "items": [
+        { "name": "Shorten / jeans", "price": "15€" },
+        { "name": "Shorten / original jeans hem", "price": "20€" },
+        { "name": "Shorten / blind stitch", "price": "20€" },
+        { "name": "Shorten / cover stitch", "price": "16€" },
+        { "name": "Shorten with slit", "price": "22€" },
+        { "name": "Shorten with tape", "price": "20€" },
+        { "name": "Shorten with cuff", "price": "20€" },
+        { "name": "Shorten with turn-up", "price": "22€" },
+        { "name": "Shorten with lining", "price": "25€" },
+        { "name": "Shorten with zipper", "price": "28€" },
+        { "name": "Shorten from top / elastic", "price": "25€" },
+        { "name": "Shorten from top / waistband", "price": "35€" },
+        { "name": "Slim hips", "price": "16€" },
+        { "name": "Slim hips with zipper", "price": "23€" },
+        { "name": "Slim legs from knee", "price": "18€" },
+        { "name": "Slim one leg", "price": "25€" },
+        { "name": "Slim both legs", "price": "35€" },
+        { "name": "Slim and shorten legs", "price": "38€" },
+        { "name": "Insert gusset at back", "price": "30€" },
+        { "name": "Insert gusset on both sides", "price": "35€" },
+        { "name": "Insert gusset in inseam", "price": "30€" },
+        { "name": "New zipper", "price": "23€" },
+        { "name": "New zipper with pocket", "price": "25€" },
+        { "name": "New pocket lining", "price": "20€" },
+        { "name": "Pocket lining repair from", "price": "10€" },
+        { "name": "New belt loop", "price": "5€" },
+        { "name": "Sew pockets closed / remove lining", "price": "15€" },
+        { "name": "New elastic", "price": "15€" },
+        { "name": "Enlarge elastic / waistband", "price": "18€" },
+        { "name": "New snap button", "price": "8€" },
+        { "name": "New jeans button", "price": "6€" },
+        { "name": "Denim patch at inseam (both sides)", "price": "15€" },
+        { "name": "Inseam tuck", "price": "18€" },
+        {
+          "id": "lederhose",
+          "title": "Leather Trousers",
+          "items": [
+            { "name": "Shorten", "price": "25€" },
+            { "name": "Slim", "price": "50€" },
+            { "name": "Zipper", "price": "39€" },
+            { "name": "New lining", "price": "60€" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gardinen",
+      "title": "Curtains and Drapes",
+      "icon": "icons/repair_icons/icons8-шторы-100.png",
+      "items": [
+        { "name": "One seam per meter", "price": "8€" },
+        { "name": "With pleating tape", "price": "15€" },
+        { "name": "Shorten decorative curtain", "price": "15€" }
+      ]
+    }
+  ]
+}

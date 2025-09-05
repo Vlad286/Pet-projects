@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "DIENSTLEISTUNGEN",
+    "examples":"ARBEITSBEISPIELE",
+    "repair": "KLEIDERREPARATUR",
+    "contact": "KONTAKT"
+  },
+  "header": {
+    "title": "Atelier",
+    "name": "ALENA RYVKINA"
+  },
+  "clothes": {
+    "corset": "Mieder",
+    "jacket": "Jacken",
+    "evening": "Abendkleider",
+    "daily": "Alltagskleider"
+  },
+  "info": {
+    "services": "Meine Dienstleistungen",
+    "ask": "Brauchen Sie Hilfe bei der Auswahl?",
+    "tailor": "Maßgeschneiderte Kleidung",
+    "repair": "Reparaturen & Änderungen",
+    "fitting": "Anprobe Service",
+    "rent": "Designerkleidung mieten",
+    "examples": "Arbeitsbeispiele",
+    "order": "Produkt bestellen",
+    "more": "Noch mehr"
+  },
+  "form": {
+    "title": "Ein Traum, eine Vision, ein Gefühl – erzählen Sie mir davon. Gemeinsam nähen wir daraus etwas ganz Besonderes",
+    "name": "Ihr Name",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "message": "Ihre Nachricht",
+    "agreement": "mit dem Absenden des Formulars erklären Sie sich mit der Verarbeitung Ihrer personenbezogenen Daten und der Datenschutzerklärung einverstanden.",
+    "submit": "SENDEN"
+  },
+  "footer": {
+    "socials": "Meine sozialen Netzwerke"
+  },
+  "repairPage": {
+    "title": "Reparatur und Restaurierung von Kleidung",
+    "subtitle": "Verlängern Sie das Leben Ihrer Lieblingskleidung!",
+    "button": "Brauchen Sie Hilfe bei der Auswahl?",
+    "circleText": "KLEIDERREPARATUR • RESTAURIERUNG • LUXUSPFLEGE •",
+    "priceTitle": "Reparaturpreisliste",
+    "searchPlaceholder": "Dienstleistung suchen...",
+    "selectPlaceholder": "Kategorie auswählen"
+  },
+  "privacyPage": {
+    "title": "Datenschutzerklärung",
+    "heading": "Datenschutzerklärung",
+    "intro": "Wir freuen uns über Ihr Interesse an unserer Website. Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Nachstehend informieren wir Sie darüber, welche personenbezogenen Daten wir erheben, wie wir diese verwenden und welche Rechte Sie in Bezug auf Ihre Daten haben.",
+    "section1Title": "1. Verantwortliche Stelle",
+    "section1Text": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\nAlena Rivkina\n[Adresse]\naryvkina@web.de",
+    "section2Title": "2. Erhebung und Verarbeitung personenbezogener Daten",
+    "section2Text": "Wir erheben personenbezogene Daten nur dann, wenn Sie uns diese über das Kontaktformular freiwillig mitteilen. Zu den erhobenen Daten gehören in der Regel:",
+    "section2Text2": "- Name",
+    "section2Text3": "- E-Mail-Adresse",
+    "section2Text4": "- Telefonnummer (falls angegeben)",
+    "section2Text5": "- Inhalt Ihrer Nachricht",
+    "section2Text6": "Diese Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet. Eine Weitergabe an Dritte erfolgt nicht.",
+    "section3Title": "3. Datenübertragung",
+    "section3Text": "Die über das Kontaktformular eingegebenen Daten werden verschlüsselt übertragen und ggf. über einen Drittanbieter (z. B. Telegram) verarbeitet. Mit dem Absenden des Formulars erklären Sie sich mit dieser Verarbeitung einverstanden.",
+    "section4Title": "4. Ihre Rechte",
+    "section4Text": "Sie haben das Recht auf Auskunft über die bei uns gespeicherten personenbezogenen Daten, deren Berichtigung, Löschung oder Einschränkung der Verarbeitung sowie ein Widerspruchsrecht gegen die Verarbeitung.",
+    "section4Text2": "Zur Ausübung Ihrer Rechte können Sie uns jederzeit unter der oben angegebenen Adresse kontaktieren.",
+    "section5Title": "5. Kontakt",
+    "section5Text": "Bei Fragen zum Datenschutz wenden Sie sich bitte an:\naryvkina@web.de"
+  }
+}
